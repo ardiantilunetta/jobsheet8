@@ -11,4 +11,7 @@ Percobaan 2
 2. output bintang yang dicetak pada setiap baris akan lebih 1 bintang dari input yang dinginkan, karena perulangan tersebut digunakan untuk mencetak bintang pada setiap baris dan perhitungannya dimulai dari 0
 3. perulangan luar digunakan untuk mencetak dan mengatur jumlah baris, dan perulangan dalam digunakan untuk mencetak dan mengatur jumlah bintang dalam 1 baris
 4. System.out.println(); digunakan untuk pindah ke baris baru setelah perulangan dalam/perulangan bintang selesai dicetak
-5. 
+
+Percobaan 3
+1. Tidak, output yang dihasilkan adalah "***************"
+2. yang perlu ditambahkan adalah code "System.out.println();" di dalam perulangan while luar di bawah kurung tutup perulangan while dalam, digunakan untuk mencetak baris baru setelah perulangan dalam selesai mencetak bintang pada setiap barisnya
