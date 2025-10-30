@@ -6,6 +6,10 @@ public class Tugas1 {
         System.out.print("Masukkan nilai N (minimal 3) : ");
         int n = sc.nextInt();
         for (int i = 1 ; i <= n ; i++) {
+            if (n < 3) {
+                    System.out.println("Input yang dapat dimasukkan minimal 3");
+                    break;
+                }
             for (int j = 1 ; j <= n ; j++) {
                 if (i == 1 || i == n || j == 1 || j == n) {
                     System.out.print("*");
