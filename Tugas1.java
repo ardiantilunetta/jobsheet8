@@ -5,5 +5,8 @@ public class Tugas1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan nilai N : ");
         int n = sc.nextInt();
+        for (int i = 1 ; i <= n ; i++) {
+            
+        }
     }
 }
