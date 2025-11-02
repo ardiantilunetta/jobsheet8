@@ -6,12 +6,20 @@ public class Tugas2 {
         int n;
         String badminton = " ", tenis = " ", basket = " ", voly = " ";
 
-        System.out.println("Masukkan nama pemain cabor Badminton : ");
-        for (int i=1 ; i<= 5 ; i++) {
-            System.out.print(i+". ");
-            badminton += sc.nextLine();
+        System.out.print("Masukkan jumlah politeknik : ");
+        n = sc.nextInt();
+        sc.nextLine();
+
+        for (int i=1 ; i<=n ; i++){
+            System.out.println("Masukkan nama pemain cabor Badminton : ");
+            for (int j=1 ; j<=5 ; j++) {
+                System.out.print(j+". ");
+                badminton += sc.nextLine();
+            }
         }
 
         System.out.println(badminton);
+
+        
     }
 }
